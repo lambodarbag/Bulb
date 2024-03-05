@@ -1,4 +1,4 @@
-let bulb = document.querySelector("#bulb");
+let bulb = document.querySelector(".ri-lightbulb-line");
 let btn = document.querySelector("button");
 let bdy = document.querySelector("body");
 let check = 0
@@ -11,7 +11,7 @@ btn.addEventListener("click", function(){
         check+=1
     }
     else {
-        bulb.style.backgroundColor= "transparent";
+        bulb.style.backgroundColor= "white";
         btn.style.backgroundColor= "white";
         btn.innerHTML= "ON";
         check-=1
