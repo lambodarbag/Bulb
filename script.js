@@ -6,7 +6,7 @@ let check = 0
 btn.addEventListener("click", function(){
     if(check==0) {
         bulb.style.backgroundColor= "yellow";
-        btn.style.backgroundColor= "blue";
+        btn.style.backgroundColor= "orangered";
         btn.innerHTML= "OFF";
         check+=1
     }
